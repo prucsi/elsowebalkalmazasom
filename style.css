@@ -1,0 +1,169 @@
+
+.gray-container {
+  position: relative;  
+  padding: 20px;
+  width: 920px;
+  height: 950px;
+  margin: auto;
+  margin-top: 40px;
+  background: lightgrey;}
+  
+
+
+
+
+  .container2 {
+    position: relative;  
+    padding: 20px;
+    width: 800px;
+    height: 650px;
+    margin: auto;
+    background: lightblue;
+  }
+
+
+
+
+  
+  * {box-sizing: border-box;}
+  
+  #photo {vertical-align: middle; }
+  
+  
+  
+  .galeria { display: none;}
+  
+  .cursor {  cursor: pointer;}
+  
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: lime;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .next { right: 0;  border-radius: 3px 0 0 3px;}
+  
+  
+  
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);}
+  
+  
+    .numbertext {
+      color: white;
+      font-size: 22px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+  
+  
+  
+   
+  
+   * .row:after { content: "";
+      display: table;
+      clear: both;  
+    }
+  
+      .column {float: left;
+        width: 19.9%;   
+       
+         
+      }
+  
+        .demo {
+          opacity: 0.6;
+          object-fit: cover;
+          border: 2px solid navy;
+        }
+        
+        .active,
+        .demo:hover {
+          opacity: 1;
+         border: 5px solid lime;
+        }
+  
+      
+
+.row {
+  margin-top: 60px;
+  width: 850px;
+  height: 200px;
+  position: relative;
+}
+
+#photo-description {
+  display: none;
+  position: relative;
+  background: rgb(226, 108, 108);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  top: -50px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.column:hover #photo-description {  display: block; }
+
+
+//*span:hover + div {
+  display: block;
+}*//
+
+
+.photo-title {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  }
+
+ .atlatszo {
+  
+    position: absolute;
+    background-color: rgb(27, 97, 202);
+    text-align: center;
+    opacity: 0.5;
+    justify-content: center;
+    color: white;
+    width: 760px;
+    height: 100px;
+    line-height: 12px;
+    //*display: flex;*//
+   //* align-items: flex-end;*//
+   //* align-content: flex-start;*//
+
+ 
+  }
+
+.galeria {
+  display: flex;
+  position: relative;
+  text-align: center;
+ 
+}
+
+.kozos {
+  position: absolute;
+  display: flex;
+  align-content: center;
+  align-items: flex-end;
+}
+
+
+
